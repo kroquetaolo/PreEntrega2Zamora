@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: .625rem .9375rem;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px ;
+}
+
+@media (hover: hover) {
+        .navbar li:hover {
+            background-color: aqua;
+        }
+}

@@ -7,24 +7,37 @@
 
 header {
     display: flex;
+    height: 3.125rem;
     justify-content: space-between;
-    padding: .625rem .9375rem;
     background-color: black;
 }
 
+header img {
+    height: 100%;
+    border: .1875rem solid;
+    border-radius: 50%;
+}
 .navbar {
     display: flex;
     list-style: none;
-    gap: 2.5rem;
 }
+
+.navbar li {
+    padding: .75rem .9375rem;
+    align-items: center;
+}
+
 .navbar li a{
     text-decoration: none;
-    color: white;
+    text-align: center;
+    color: rgb(207, 255, 255);
     font-size: 20px ;
 }
 
-@media (hover: hover) {
-        .navbar li:hover {
-            background-color: aqua;
-        }
+.navbar li:hover {
+    background-color: rgba(0, 255, 255, 0.363);
+} 
+
+.navbar li:hover a {
+    color: rgb(88, 255, 255);
 }

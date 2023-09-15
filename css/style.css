@@ -2,25 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
+.top {
+    position: relative;
+    height: .625rem;
+    background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
 }
 
 header {
     display: flex;
     height: 3.125rem;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(35, 35, 35);
 }
 
 header img {
     height: 100%;
-    border: .1875rem solid;
-    border-radius: 50%;
+    border-radius: 40%;
+
 }
+
 .navbar {
     display: flex;
     list-style: none;
+    height: 100%;
 }
+
 
 .navbar li {
     padding: .75rem .9375rem;
@@ -40,4 +48,21 @@ header img {
 
 .navbar li:hover a {
     color: rgb(88, 255, 255);
+}
+
+.presentacion {
+    height: 40.625rem;
+    text-align: center;
+    color: white;
+    background-image: url(../assets/fondo-presentacion.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.presentacion h1 {
+    padding-top: 20.3125rem;
+}
+.presentacion p {
+    padding: 0 3.125rem;
 }

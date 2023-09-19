@@ -11,8 +11,9 @@ header img:hover{
 }
 
 .nav__hover a:hover {
-    background-color: rgba(211, 211, 211, 0.25);
+    background-color: rgba(211, 211, 211, 0.4);
     font-weight: bold;
+    border-radius: 1.25rem;
 }
 
 .top {

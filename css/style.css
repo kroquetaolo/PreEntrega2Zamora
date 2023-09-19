@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+header img {
+    border-radius: 50%;
+}
+header img:hover{
+    border-radius: 5%;
+}
+
+.nav__hover a:hover {
+    background-color: rgba(211, 211, 211, 0.25);
+    font-weight: bold;
+}
 
 .top {
     position: relative;

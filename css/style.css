@@ -10,46 +10,6 @@
     background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
 }
 
-header {
-    display: flex;
-    height: 3.125rem;
-    justify-content: space-between;
-    background-color: rgb(35, 35, 35);
-}
-
-header img {
-    height: 100%;
-    border-radius: 40%;
-
-}
-
-.navbar {
-    display: flex;
-    list-style: none;
-    height: 100%;
-}
-
-
-.navbar li {
-    padding: .75rem .9375rem;
-    align-items: center;
-}
-
-.navbar li a{
-    text-decoration: none;
-    text-align: center;
-    color: rgb(207, 255, 255);
-    font-size: 20px ;
-}
-
-.navbar li:hover {
-    background-color: rgba(0, 255, 255, 0.363);
-} 
-
-.navbar li:hover a {
-    color: rgb(88, 255, 255);
-}
-
 .presentacion {
     height: 40.625rem;
     text-align: center;

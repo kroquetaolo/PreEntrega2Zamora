@@ -18,10 +18,19 @@ header img:hover{
     border-radius: 5%;
 }
 
-.nav__hover a:hover {
+.nav-tabs{
+    border-color: rgba(255, 20, 145, 0.5);
+}
+.nav-link{
+    border-color: rgba(255, 20, 145, 0.5);
+}
+.nav-tabs a{
+    color: black;
+}
+.nav-tabs a:hover {
+    color: deeppink;
     background-color: rgba(211, 211, 211, 0.4);
     font-weight: bold;
-    border-radius: 1.25rem;
 }
 
 .top {
@@ -30,13 +39,8 @@ header img:hover{
 }
 
 .presentacion {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 40.625rem;
     color: white;
-    text-align: center;
     background-image: url(../assets/fondo-presentacion.jpg);
     background-size: cover;
     background-position: center;

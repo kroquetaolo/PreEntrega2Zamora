@@ -23,18 +23,39 @@ header img:hover{
 }
 
 .presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 40.625rem;
-    text-align: center;
     color: white;
+    text-align: center;
     background-image: url(../assets/fondo-presentacion.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 3.125rem;
+    h1{
+        font-weight: bold;
+    }
 }
 
-.presentacion h1 {
-    padding-top: 20.3125rem;
+.banco_y_comercio{
+    justify-content: center;
+    align-items: center;
 }
-.presentacion p {
-    padding: 0 3.125rem;
+
+
+.reglas {
+    height: auto;
+    margin-top: 1.25rem;
+}
+.card {
+    height: 100%;
+    border-color: deeppink;
+}
+footer {
+    margin-top: .625rem;
+    height: 15rem;
+    background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
 }

@@ -5,10 +5,20 @@
 }
 body{
     background-color: rgba(185, 185, 185, 0.5);
+    padding-top: 3.75rem;
 }
 
 .navbar{
     background-color: rgb(255, 224, 247);
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    
 }
 
 header img {
@@ -18,10 +28,11 @@ header img:hover{
     border-radius: 5%;
 }
 
-.nav-tabs{
+.nav-link{
     border-color: rgba(255, 20, 145, 0.5);
 }
-.nav-link{
+
+.nav-tabs{
     border-color: rgba(255, 20, 145, 0.5);
 }
 .nav-tabs a{
@@ -33,7 +44,7 @@ header img:hover{
     font-weight: bold;
 }
 
-.top {
+.franja {
     height: .625rem;
     background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
 }
@@ -46,9 +57,9 @@ header img:hover{
     background-position: center;
     background-repeat: no-repeat;
     padding: 3.125rem;
-    h1{
-        font-weight: bold;
-    }
+}
+.presentacion h1{
+    font-weight: bold;
 }
 
 .banco_y_comercio{
@@ -57,7 +68,6 @@ header img:hover{
     justify-content: center;
     align-items: center;
 }
-
 
 .reglas {
     height: auto;
@@ -68,7 +78,80 @@ header img:hover{
     border-color: deeppink;
 }
 footer {
-    margin-top: .625rem;
-    height: 15rem;
-    background: linear-gradient(141deg, rgba(0, 255, 255, 0.6) 0%, rgba(102, 51, 153, 0.6) 40%, rgba(255, 20, 145, 0.6) 90%);
+    background-color: rgb(255, 224, 247);
+}
+
+.color-facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.color-facebook:hover {
+    background-color: white;
+    color: #3b5998;
+}
+
+.color-twitter {
+    background-color: #55acee;
+    color: white;
+}
+
+.color-twitter:hover {
+    background-color: white;
+    color: #55acee;
+}
+
+.color-instagram {
+    background-color: #ac2bac;
+    color: white;
+}
+
+.color-instagram:hover {
+    background-color: white;
+    color: #ac2bac;
+}
+
+.color-linkedin {
+    background-color: #0082ca;
+    color: white;
+}
+
+.color-linkedin:hover {
+    background-color: white;
+    color: #0082ca;
+}
+
+.color-github {
+    background-color: #333333;
+    color: white;
+}
+
+.color-github:hover {
+    background-color: white;
+    color: #333333;
+}
+
+.color-discord {
+    background-color: #1900ff;
+    color: white;
+}
+
+.color-discord:hover {
+    background-color: white;
+    color: #1900ff;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-to-top:hover {
+    background-color: #555;
 }
